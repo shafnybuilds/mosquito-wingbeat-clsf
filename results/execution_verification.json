@@ -1,0 +1,17 @@
+{
+  "notebook_sha256": "975d7bf08960f58d1a64e880cd1c9d78109014dfb99ccb90e8f1759d343751ac",
+  "report_sha256": "30797512a0acfff1a0a18a51e41a9bcbbe8481f13ca4b10c59bb8775326c6b25",
+  "code_cells_executed": 11,
+  "tests_passed": 8,
+  "errors": 0,
+  "predictions": 36000,
+  "accuracy": 0.9258055555555555,
+  "macro_f1": 0.9163545048865761,
+  "original_functions_matched": 15,
+  "models_checked": 10,
+  "audio_files_checked": 1336,
+  "predictions_match_previous_verified_run": true,
+  "source_rounding_checked": true,
+  "saved_notebook_can_be_read_without_running": true,
+  "full_proposed_model_replication": false
+}

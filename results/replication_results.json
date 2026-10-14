@@ -1,0 +1,276 @@
+{
+  "scope": "Released older MosquitoSong CNN evaluation, not full MosquitoSong+ replication",
+  "trained_here": false,
+  "released_models_checked": 10,
+  "convolution_layers_in_released_models": 2,
+  "input_files": 1324,
+  "noise_files": 12,
+  "rounds": 10,
+  "predictions": 36000,
+  "pooled": {
+    "inputs": 36000,
+    "accuracy": 0.9258055555555555,
+    "macro_f1": 0.9163545048865761
+  },
+  "score_summary": [
+    {
+      "gain": 1,
+      "inputs": 12000,
+      "pooled_accuracy": 0.9215833333333333,
+      "pooled_macro_f1": 0.9105384422313889,
+      "mean_round_accuracy": 0.9215833333333332,
+      "mean_round_macro_f1": 0.9110259075406146,
+      "released_report_accuracy": 0.9214999999999998,
+      "released_report_macro_f1": 0.9111
+    },
+    {
+      "gain": 1.5,
+      "inputs": 12000,
+      "pooled_accuracy": 0.9270833333333334,
+      "pooled_macro_f1": 0.9176169795133938,
+      "mean_round_accuracy": 0.9270833333333334,
+      "mean_round_macro_f1": 0.91777885680951,
+      "released_report_accuracy": 0.9271999999999998,
+      "released_report_macro_f1": 0.9177
+    },
+    {
+      "gain": 2,
+      "inputs": 12000,
+      "pooled_accuracy": 0.92875,
+      "pooled_macro_f1": 0.9210265967170927,
+      "mean_round_accuracy": 0.9287500000000002,
+      "mean_round_macro_f1": 0.920954825369213,
+      "released_report_accuracy": 0.9287000000000001,
+      "released_report_macro_f1": 0.921
+    },
+    {
+      "gain": "all",
+      "inputs": 36000,
+      "pooled_accuracy": 0.9258055555555555,
+      "pooled_macro_f1": 0.9163545048865761,
+      "mean_round_accuracy": 0.9258055555555555,
+      "mean_round_macro_f1": 0.916550703752043,
+      "released_report_accuracy": 0.9257,
+      "released_report_macro_f1": 0.9164000000000001
+    }
+  ],
+  "folds": [
+    {
+      "round": 1,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.8786111111111111,
+      "macro_f1": 0.8593615367029799,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 2,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9413888888888889,
+      "macro_f1": 0.936427282502404,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 3,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9163888888888889,
+      "macro_f1": 0.9018254529153953,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 4,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9419444444444445,
+      "macro_f1": 0.9409273166390428,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 5,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9277777777777778,
+      "macro_f1": 0.918288887438444,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 6,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9608333333333333,
+      "macro_f1": 0.9552093006423252,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 7,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9472222222222222,
+      "macro_f1": 0.9393759429703423,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 8,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9422222222222222,
+      "macro_f1": 0.9246688432005528,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 9,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.8952777777777777,
+      "macro_f1": 0.8900070148793588,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    },
+    {
+      "round": 10,
+      "train_sections": 12359,
+      "validation_sections": 1531,
+      "test_sections": 600,
+      "evaluated_inputs": 3600,
+      "accuracy": 0.9063888888888889,
+      "macro_f1": 0.8994154596295836,
+      "noise_added": 873,
+      "clean_inputs": 2727
+    }
+  ],
+  "noise_condition_scores": [
+    {
+      "noise_added": 0,
+      "inputs": 27270,
+      "accuracy": 0.9338100476714338,
+      "macro_f1": 0.9259945335656004
+    },
+    {
+      "noise_added": 1,
+      "inputs": 8730,
+      "accuracy": 0.9008018327605957,
+      "macro_f1": 0.8872255871657166
+    }
+  ],
+  "matched_clean_and_noisy_scores": [
+    {
+      "condition": "clean",
+      "inputs": 8730,
+      "accuracy": 0.9371134020618557,
+      "macro_f1": 0.9269851051329973
+    },
+    {
+      "condition": "noisy",
+      "inputs": 8730,
+      "accuracy": 0.9008018327605957,
+      "macro_f1": 0.8872255871657166
+    }
+  ],
+  "noise_added_inputs": 8730,
+  "clean_inputs": 27270,
+  "numpy_tensorflow_checks": [
+    {
+      "round": 1,
+      "inputs_checked": 13,
+      "max_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "round": 2,
+      "inputs_checked": 13,
+      "max_probability_difference": 1.7881393432617188e-07
+    },
+    {
+      "round": 3,
+      "inputs_checked": 13,
+      "max_probability_difference": 4.470348358154297e-07
+    },
+    {
+      "round": 4,
+      "inputs_checked": 13,
+      "max_probability_difference": 1.7881393432617188e-07
+    },
+    {
+      "round": 5,
+      "inputs_checked": 13,
+      "max_probability_difference": 1.7881393432617188e-07
+    },
+    {
+      "round": 6,
+      "inputs_checked": 13,
+      "max_probability_difference": 4.172325134277344e-07
+    },
+    {
+      "round": 7,
+      "inputs_checked": 13,
+      "max_probability_difference": 1.7881393432617188e-07
+    },
+    {
+      "round": 8,
+      "inputs_checked": 13,
+      "max_probability_difference": 2.980232238769531e-07
+    },
+    {
+      "round": 9,
+      "inputs_checked": 13,
+      "max_probability_difference": 3.8743019104003906e-07
+    },
+    {
+      "round": 10,
+      "inputs_checked": 13,
+      "max_probability_difference": 4.76837158203125e-07
+    }
+  ],
+  "paper_reference": {
+    "accuracy": 0.918,
+    "macro_f1": 0.911,
+    "directly_comparable": false
+  },
+  "environment": {
+    "python": "3.12.14",
+    "tensorflow": "2.16.1",
+    "numpy": "1.26.4",
+    "librosa": "0.11.0",
+    "sklearn": "1.7.2"
+  },
+  "prediction_file_sha256": "9175e1f07a25a276ec1bd76db53cd7593020073506c79032a65e21b5983d4309",
+  "model_file_sha256": {
+    "cnn_model_min_val_round1.h5": "6a9434e9a6949c3ca8d12439dcaadfc2dff4d81c6850d8fa29d5b669e3b6e3e0",
+    "cnn_model_min_val_round10.h5": "1e6c36565735d557ac140ff54a36fb707b069785aa40aea7c44dc66e60006e02",
+    "cnn_model_min_val_round2.h5": "1bc77a48de67f373bf1b723be990ab1de98d00e4c138b77e89fe580db482705e",
+    "cnn_model_min_val_round3.h5": "0c4b2d5cabd562c16f2cfc1bf5185fc65c2a7f3c6e8735945d843cebf2620faf",
+    "cnn_model_min_val_round4.h5": "1a3538db306ee7f7618fc3c60f91bc7863911b371db433137cedc6bb62c51787",
+    "cnn_model_min_val_round5.h5": "d8cfc09712c2233786225413b0be5b673d7cbf29dfcbedfe422897010512d7c2",
+    "cnn_model_min_val_round6.h5": "421f2bcabeb413ce1bd023bf1d7baea836abf15ba83987bd349f6a2a49598969",
+    "cnn_model_min_val_round7.h5": "9e2dfcfc9b1a28eee4bf044a6bcfb807645ab520ec855d9130c34e9cea58d557",
+    "cnn_model_min_val_round8.h5": "1460f12734749390366b3c18fb76b4bb3ada3883033df2e122af3f902b0a34a7",
+    "cnn_model_min_val_round9.h5": "a6b10245f88d031f63c8c7fbbe96ac32af2b800f454431a3ef3896a43c10e8db"
+  }
+}
